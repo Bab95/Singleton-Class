@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/babnishvyas/CLionProjects/Singleton/Distance.cpp
+Distance.h
+/Users/babnishvyas/CLionProjects/Singleton/Distance.h
+
+/Users/babnishvyas/CLionProjects/Singleton/Distance.h
+iostream
+-
+
+/Users/babnishvyas/CLionProjects/Singleton/main.cpp
+iostream
+-
+vector
+-
+singleton.h
+/Users/babnishvyas/CLionProjects/Singleton/singleton.h
+Distance.h
+/Users/babnishvyas/CLionProjects/Singleton/Distance.h
+
+/Users/babnishvyas/CLionProjects/Singleton/singleton.cpp
+singleton.h
+/Users/babnishvyas/CLionProjects/Singleton/singleton.h
+
+/Users/babnishvyas/CLionProjects/Singleton/singleton.h
+iostream
+-
+
