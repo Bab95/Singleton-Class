@@ -9,3 +9,15 @@ singleton& singleton::operator=(const singleton &instance) {
     data = instance.data;
     return *this;
 }
+singleton::singleton(){
+    std::cout<<"Calling constructor"<<std::endl;
+    data = 0;
+}
+singleton::singleton(int val){
+    data = val;
+    std::cout<<"calling out parameterized constructor"<<std::endl;
+}
+singleton::singleton(const singleton& instance){
+    std::cout<<"Calling copy constructor "<<std::endl;
+    std::cout<<"Shouldn't be allowed "<<std::endl;
+}

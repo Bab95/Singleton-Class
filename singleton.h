@@ -9,14 +9,11 @@ class singleton {
 private:
     int data;
     static singleton* instance;
-    singleton(){
-        data = 0;
-    }
+    singleton();
+    singleton(int val);
     //void operator = (const singleton& instance); this is also okay
     singleton& operator = (const singleton& instance);
-    singleton(const singleton& instance){
-        std::cout<<"calling copy constructor is not allowed!!!"<<std::endl;
-    }
+    singleton(const singleton& instance);
 
 public:
     static singleton* getinstance(){
